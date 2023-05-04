@@ -1,0 +1,37 @@
+{
+  "name": "@data-fair/processing-cogapi",
+  "version": "0.0.0",
+  "description": "Creates COG dataset",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint-fix": "eslint --ignore-path .gitignore --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/data-fair/processing-cogAPI.git"
+  },
+  "keywords": [
+    "data-fair-processings-plugin"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/data-fair/processing-cogAPI/issues"
+  },
+  "homepage": "https://github.com/data-fair/processing-cogAPI#readme",
+  "devDependencies": {
+    "@data-fair/processings-test-utils": "^0.5.2",
+    "config": "^3.3.9",
+    "eslint": "^8.39.0",
+    "mocha": "^10.2.0",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "csv-stringify": "^6.3.3",
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,89 @@
+[
+    {
+        "key": "code_commune",
+        "title": "Code commune",
+        "type": "string",
+        "x-refersTo": "http://rdf.insee.fr/def/geo#codeCommune",
+        "x-capabilities": {
+        "insensitive": false,
+        "textAgg": false,
+        "text": false,
+        "textStandard": false
+        },
+        "description": "Code de la commune"
+    },
+    {
+        "key": "nom_commune",
+        "title": "Nom commune",
+        "type": "string",
+        "x-capabilities": {
+            "textAgg": false
+        },
+        "x-refersTo": "http://schema.org/City",
+        "description": "Nom de la commune"
+    },
+    {
+        "key": "code_departement",
+        "title": "Code département",
+        "type": "integer",
+        "x-capabilities": {
+            "textStandard": false,
+            "values": false
+        },
+        "x-refersTo": "http://rdf.insee.fr/def/geo#codeDepartement",
+        "description": "Code du département"
+    },
+    {
+        "key": "nom_departement",
+        "title": "Nom département",
+        "type": "string",
+        "x-capabilities": {
+            "insensitive": false,
+            "textAgg": false,
+            "text": false,
+            "textStandard": false,
+            "values": false
+        },
+        "description": "Nom du département"
+    },
+    {
+        "key": "code_epci",
+        "title": "Code EPCI",
+        "type": "integer",
+        "x-capabilities": {
+            "textStandard": false,
+            "values": false
+        },
+        "x-refersTo": "http://rdf.insee.fr/def/geo#EtablissementPublicDeCooperationIntercommunale",
+        "description": "Code de l'établissement public de coopération intercommunale"
+    },
+    {
+        "key": "nom_epci",
+        "title": "Nom EPCI",
+        "type": "string",
+        "x-capabilities": {
+            "textAgg": false
+        },
+        "description": "Nom de l'établissement public de coopération intercommunale"
+    },
+    {
+        "key": "code_region",
+        "title": "Code région",
+        "type": "integer",
+        "x-capabilities": {
+            "textStandard": false,
+            "values": false
+        },
+        "x-refersTo": "http://rdf.insee.fr/def/geo#codeRegion",
+        "description": "Code de la région"
+    },
+    {
+        "key": "nom_region",
+        "title": "Nom région",
+        "type": "string",
+        "x-capabilities": {
+            "textAgg": false
+        },
+        "description": "Nom de la région"
+    }
+]
