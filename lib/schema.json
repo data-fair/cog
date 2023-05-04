@@ -23,9 +23,32 @@
         "description": "Nom de la commune"
     },
     {
+        "key": "code_arrondissement",
+        "title": "Code arrondissement",
+        "type": "string",
+        "x-capabilities": {
+            "textStandard": false,
+            "values": false
+        },
+        "description": "Code de l'arrondissement"
+    },
+    {
+        "key": "nom_arrondissement",
+        "title": "Nom arrondissement",
+        "type": "string",
+        "x-capabilities": {
+            "insensitive": false,
+            "textAgg": false,
+            "text": false,
+            "textStandard": false,
+            "values": false
+        },
+        "description": "Nom de l'arrondissement"
+    },
+    {
         "key": "code_departement",
         "title": "Code département",
-        "type": "integer",
+        "type": "string",
         "x-capabilities": {
             "textStandard": false,
             "values": false
@@ -49,7 +72,7 @@
     {
         "key": "code_epci",
         "title": "Code EPCI",
-        "type": "integer",
+        "type": "string",
         "x-capabilities": {
             "textStandard": false,
             "values": false
@@ -69,7 +92,7 @@
     {
         "key": "code_region",
         "title": "Code région",
-        "type": "integer",
+        "type": "string",
         "x-capabilities": {
             "textStandard": false,
             "values": false
@@ -85,5 +108,81 @@
             "textAgg": false
         },
         "description": "Nom de la région"
+    },
+    {
+        "key": "code_aire_d_attraction_des_villes",
+        "title": "Code aire d'attraction des villes",
+        "type": "string",
+        "x-capabilities": {
+            "textStandard": false,
+            "values": false
+        },
+        "description": "Code de l'aire d'attraction des villes"
+    },
+    {
+        "key": "nom_aire_d_attraction_des_villes",
+        "title": "Nom aire d'attraction des villes",
+        "type": "string",
+        "x-capabilities": {
+            "textAgg": false
+        },
+        "description": "Nom de l'aire d'attraction des villes"
+    },
+    {
+        "key": "code_bassin_de_vie",
+        "title": "Code Bassin de vie",
+        "type": "string",
+        "x-capabilities": {
+            "textStandard": false,
+            "values": false
+        },
+        "description": "Bassin de vie"
+    },
+    {
+        "key": "nom_bassin_de_vie",
+        "title": "Nom bassin de vie",
+        "type": "string",
+        "x-capabilities": {
+            "textAgg": false
+        },
+        "description": "Nom du bassin de vie"
+    },
+    {
+        "key": "code_unite_urbaine",
+        "title": "Code unité urbaine",
+        "type": "string",
+        "x-capabilities": {
+            "textStandard": false,
+            "values": false
+        },
+        "description": "Code de l'unité urbaine"
+    },
+    {
+        "key": "nom_unite_urbaine",
+        "title": "Nom unité urbaine",
+        "type": "string",
+        "x-capabilities": {
+            "textAgg": false
+        },
+        "description": "Nom de l'unité urbaine"
+    },
+    {
+        "key": "code_zone_d_emploi",
+        "title": "Code zone d'emploi",
+        "type": "string",
+        "x-capabilities": {
+            "textStandard": false,
+            "values": false
+        },
+        "description": "Code de la zone d'emploi"
+    },
+    {
+        "key": "nom_zone_d_emploi",
+        "title": "Nom zone d'emploi",
+        "type": "string",
+        "x-capabilities": {
+            "textAgg": false
+        },
+        "description": "Nom de la zone d'emploi"
     }
 ]
