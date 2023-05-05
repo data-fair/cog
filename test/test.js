@@ -14,7 +14,7 @@ describe('Code Officiel Géographique', function () {
         datasetMode: 'create',
         dataset: { title: 'Code Officiel Géographique' },
         filter: '56',
-        apiKey: '0EdrxJbVffwhQd9KrvC9epaPNq4a',
+        apiKey: config.inseeAPIKey,
         forceUpdate: false
       },
       tmpDir: 'data/'

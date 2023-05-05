@@ -1,7 +1,6 @@
 const download = require('./lib/download')
 const process = require('./lib/process')
 const upload = require('./lib/upload')
-const config = require('config')
 const fs = require('fs-extra')
 const path = require('path')
 const axiosBis = require('axios')
@@ -22,7 +21,7 @@ exports.run = async ({ pluginConfig, processingConfig, tmpDir, axios, log, patch
   let token = await JSON.parse(file)
   if (!token.access_token || token.expiration < Date.now()) {
     token = { data: {} }
-    const key = Buffer.from(processingConfig.apiKey + ':' + config.inseeSecretKey).toString('base64')
+    const key = Buffer.from(processingConfig.apiKey).toString('base64')
     await log.info('Token expiré ou inexistant, récupération d\'un nouveau token')
     while (!token.data.access_token) {
       token = await axiosBis({
