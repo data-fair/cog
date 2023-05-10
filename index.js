@@ -39,6 +39,7 @@ exports.run = async ({ pluginConfig, processingConfig, tmpDir, axios, log, patch
     await fs.writeFileSync(path.join(tmpDir, 'token.json'), JSON.stringify(token.data, null, 2))
   }
   await download(processingConfig, tmpDir, axios, log, token.data)
+  await process(processingConfig, tmpDir, axios, log, token.data)
   if (processingConfig.datasetMode === 'update' && !processingConfig.forceUpdate) {
     try {
       await log.step('Vérification de l\'en-tête du jeu de données')
@@ -69,7 +70,6 @@ exports.run = async ({ pluginConfig, processingConfig, tmpDir, axios, log, patch
     }
   }
 
-  await process(processingConfig, tmpDir, axios, log, token.data)
   await upload(processingConfig, tmpDir, axios, log, patchConfig)
   if (processingConfig.clearFiles) {
     await fs.emptyDir(tmpDir)
