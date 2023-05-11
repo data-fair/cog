@@ -1,6 +1,6 @@
 {
   "name": "@data-fair/processing-cogapi",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Creates COG dataset",
   "main": "index.js",
   "scripts": {
