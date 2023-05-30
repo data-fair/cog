@@ -3,9 +3,6 @@ const process = require('./lib/process')
 const upload = require('./lib/upload')
 const fs = require('fs-extra')
 const path = require('path')
-const axiosBis = require('axios')
-
-const wait = ms => new Promise(resolve => setTimeout(resolve, ms))
 
 exports.run = async ({ pluginConfig, processingConfig, tmpDir, axios, log, patchConfig }) => {
   await log.step('Configuration')
