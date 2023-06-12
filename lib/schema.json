@@ -5,10 +5,10 @@
         "type": "string",
         "x-refersTo": "http://rdf.insee.fr/def/geo#codeCommune",
         "x-capabilities": {
-        "insensitive": false,
-        "textAgg": false,
-        "text": false,
-        "textStandard": false
+            "insensitive": false,
+            "textAgg": false,
+            "text": false,
+            "textStandard": false
         },
         "description": "Code de la commune"
     },
@@ -27,8 +27,10 @@
         "title": "Code arrondissement",
         "type": "string",
         "x-capabilities": {
-            "textStandard": false,
-            "values": false
+            "insensitive": false,
+            "textAgg": false,
+            "text": false,
+            "textStandard": false
         },
         "description": "Code de l'arrondissement"
     },
@@ -37,11 +39,7 @@
         "title": "Nom arrondissement",
         "type": "string",
         "x-capabilities": {
-            "insensitive": false,
-            "textAgg": false,
-            "text": false,
-            "textStandard": false,
-            "values": false
+            "textAgg": false
         },
         "description": "Nom de l'arrondissement"
     },
@@ -50,8 +48,10 @@
         "title": "Code département",
         "type": "string",
         "x-capabilities": {
-            "textStandard": false,
-            "values": false
+            "insensitive": false,
+            "textAgg": false,
+            "text": false,
+            "textStandard": false
         },
         "x-refersTo": "http://rdf.insee.fr/def/geo#codeDepartement",
         "description": "Code du département"
@@ -61,11 +61,7 @@
         "title": "Nom département",
         "type": "string",
         "x-capabilities": {
-            "insensitive": false,
-            "textAgg": false,
-            "text": false,
-            "textStandard": false,
-            "values": false
+            "textAgg": false
         },
         "description": "Nom du département"
     },
@@ -74,8 +70,10 @@
         "title": "Code EPCI",
         "type": "string",
         "x-capabilities": {
-            "textStandard": false,
-            "values": false
+            "insensitive": false,
+            "textAgg": false,
+            "text": false,
+            "textStandard": false
         },
         "x-refersTo": "http://rdf.insee.fr/def/geo#EtablissementPublicDeCooperationIntercommunale",
         "description": "Code de l'établissement public de coopération intercommunale"
@@ -94,8 +92,10 @@
         "title": "Code région",
         "type": "string",
         "x-capabilities": {
-            "textStandard": false,
-            "values": false
+            "insensitive": false,
+            "textAgg": false,
+            "text": false,
+            "textStandard": false
         },
         "x-refersTo": "http://rdf.insee.fr/def/geo#codeRegion",
         "description": "Code de la région"
@@ -114,8 +114,10 @@
         "title": "Code aire d'attraction des villes",
         "type": "string",
         "x-capabilities": {
-            "textStandard": false,
-            "values": false
+            "insensitive": false,
+            "textAgg": false,
+            "text": false,
+            "textStandard": false
         },
         "description": "Code de l'aire d'attraction des villes"
     },
@@ -133,8 +135,10 @@
         "title": "Code Bassin de vie",
         "type": "string",
         "x-capabilities": {
-            "textStandard": false,
-            "values": false
+            "insensitive": false,
+            "textAgg": false,
+            "text": false,
+            "textStandard": false
         },
         "description": "Bassin de vie"
     },
@@ -152,8 +156,10 @@
         "title": "Code unité urbaine",
         "type": "string",
         "x-capabilities": {
-            "textStandard": false,
-            "values": false
+            "insensitive": false,
+            "textAgg": false,
+            "text": false,
+            "textStandard": false
         },
         "description": "Code de l'unité urbaine"
     },
@@ -171,8 +177,10 @@
         "title": "Code zone d'emploi",
         "type": "string",
         "x-capabilities": {
-            "textStandard": false,
-            "values": false
+            "insensitive": false,
+            "textAgg": false,
+            "text": false,
+            "textStandard": false
         },
         "description": "Code de la zone d'emploi"
     },
